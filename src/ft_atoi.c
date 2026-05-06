@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/13 16:12:06 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/26 11:18:39 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:29:16 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../libft.h"
 
 static int	ft_isspace(int c);
 
@@ -40,10 +40,10 @@ static int	ft_isspace(int c)
 	return (0);
 }
 
-/* int	main(int ac, char **av)
+int	main(int ac, char **av)
 {
 	if (ac == 2)
 		printf("%d", ft_atoi(av[1]));
 	printf("\n");
 	return (0);
-} */
+}

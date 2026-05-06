@@ -3,16 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/24 17:40:07 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/26 11:07:59 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:06:57 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	isset(char c, const char *set);
+static int	isset(char c, const char *set)
+{
+	while (*set && c != *set)
+		set++;
+	if (c == *set)
+		return (1);
+	else
+		return (0);
+}
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
@@ -27,21 +35,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		j--;
 	return (ft_substr(s1, i, j - i));
 }
-
-static int	isset(char c, const char *set)
-{
-	while (*set && c != *set)
-		set++;
-	if (c == *set)
-		return (1);
-	else
-		return (0);
-}
-
-/* int	main(void)
-{
-	char	*s1 = "dedededdeDebora de Jesusdeddedde";
-	char	*set = "de";
-	printf("%s\n", ft_strtrim(s1, set));
-	return (0);
-} */

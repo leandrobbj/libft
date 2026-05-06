@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 14:50:51 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 13:10:39 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:07:23 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s + i);
 	return (NULL);
 }
-
-/* int main(void)
-{
-	char	*buffer = "abcde";
-
-	printf("%p\n", buffer);
-	printf("%p\n", ft_strrchr(buffer, 'A'));
-	printf("%p\n", ft_strrchr(buffer, 'c'));
-	printf("%p\n", ft_strrchr(buffer, '\0'));
-	return (0);
-} */

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 18:29:04 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 16:14:45 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:03:26 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (*str1 - *str2);
 }
-
-/* int	main(void)
-{
-	char	*s1 = "123456";
-	char	*s2 = "123";
-
-	printf("%d\n", ft_memcmp(s1, s2, 5));
-	return (0);
-} */

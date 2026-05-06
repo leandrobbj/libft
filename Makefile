@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+         #
+#    By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/23 16:04:42 by lbraga            #+#    #+#              #
-#    Updated: 2025/10/16 23:07:41 by lbraga           ###   ########.fr        #
+#    Updated: 2026/05/06 17:22:30 by lbraga           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,13 @@ HEADER	=	libft.h
 CC		=	cc
 CFLAGS	=	-Wall -Wextra -Werror -I.
 LIBC	=	ar rcs
-RM		=	rm -f
+RM		=	rm -rf
+OBJ		=	$(SRC:src/%.c=obj/%.o)
+OBJB	=	$(SRCB:src/%.c=obj/%.o)
+RED			= \033[1;31m
+GREEN		= \033[1;32m
+CYAN		= \033[0;36m
+RESET		= \033[0m
 
 SRC		=	src/ft_atoi.c		src/ft_bzero.c		src/ft_calloc.c		src/ft_isalnum.c \
 			src/ft_isalpha.c	src/ft_isascii.c	src/ft_isdigit.c	src/ft_isprint.c \
@@ -27,35 +33,32 @@ SRC		=	src/ft_atoi.c		src/ft_bzero.c		src/ft_calloc.c		src/ft_isalnum.c \
 			src/ft_strmapi.c	src/ft_striteri.c	src/ft_putchar_fd.c	src/ft_putstr_fd.c \
 			src/ft_putendl_fd.c	src/ft_putnbr_fd.c
 
-OBJ		=	$(SRC:.c=.o)
+SRCB	=	src/ft_lstnew.c		src/ft_lstadd_front.c	src/ft_lstsize.c \
+			src/ft_lstlast.c	src/ft_lstadd_back.c	src/ft_lstdelone.c \
+			src/ft_lstclear.c	src/ft_lstiter.c		src/ft_lstmap.c
 
-SRCB	=	src/bonus/ft_lstnew.c	src/bonus/ft_lstadd_front.c	src/bonus/ft_lstsize.c \
-			src/bonus/ft_lstlast.c	src/bonus/ft_lstadd_back.c	src/bonus/ft_lstdelone.c \
-			src/bonus/ft_lstclear.c	src/bonus/ft_lstiter.c		src/bonus/ft_lstmap.c
-
-OBJB	=	$(SRCB:.c=.o)
-	
 all: $(NAME)
 $(NAME): $(OBJ)
 	@$(LIBC) $(NAME) $(OBJ)
-	@echo "$(NAME) created"
+	@echo "$(GREEN)[$(NAME) created]"
 
-%.o: %.c $(HEADER)
-	@echo "Compiling $<"
+obj/%.o: src/%.c $(HEADER)
+	@mkdir -p obj
+	@echo "$(CYAN)$<"
 	@$(CC) $(CFLAGS) -c $< -o $@
 
 clean: 
-	@$(RM) $(OBJ) $(OBJB)
-	@echo "Objects deleted"
+	@$(RM) obj
+	@echo "$(RED)X objects removed"
 
 fclean: clean
 	@$(RM) $(NAME)
-	@echo "Library deleted"
+	@echo "$(RED)X library removed"
 
 re: fclean all
 
 bonus: $(OBJ) $(OBJB)
 	@$(LIBC) $(NAME) $(OBJ) $(OBJB)
-	@echo "$(NAMEB) created with bonus objects"
+	@echo "$(GREEN)[$(NAME) created with bonus]"
 
 .PHONY: all clean fclean re bonus

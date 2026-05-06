@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 13:06:31 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/26 11:05:23 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:02:26 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,9 +63,3 @@ static char	*nbrstr(int n, char *str, int len)
 		str[--len] = '-';
 	return (str);
 }
-
-/* int	main(void)
-{	
-	printf("%s\n", ft_itoa(-1920));
-	return (0);
-} */

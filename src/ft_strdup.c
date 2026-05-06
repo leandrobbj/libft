@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 11:23:31 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 20:59:50 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:08:41 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,3 @@ char	*ft_strdup(const char *s)
 	ft_strlcpy(str, s, dsize);
 	return (str);
 }
-
-/* int	main(void)
-{
-	char	*s = "Meu deus";
-	char	*d = ft_strdup(s);
-	printf("%s\n", d);
-	free(d);
-	printf("%s\n", d);
-	return (0);
-} */

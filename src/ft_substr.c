@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/24 10:19:42 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 22:02:14 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:05:36 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,17 +28,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(str, s + start, len + 1);
 	return (str);
 }
-
-/* int main(int ac, char **av)
-{
-	char 	*str;
-	if (ac == 4)
-	{
-		str = ft_substr(av[1], ft_atoi(av[2]), ft_atoi(av[3]));
-		printf("%s\n", str);
-		free(str);
-		printf("%s", str);
-	}
-	printf("\n");
-	return(0);
-} */

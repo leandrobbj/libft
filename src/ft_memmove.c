@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 11:26:19 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/24 16:57:03 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:13:33 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/* int main(void)
-{
-	char	buffer[] = "012345ABCD";
-	ft_memmove(&buffer[1], &buffer[6], 2);
-	printf("%s\n", buffer);
-} */

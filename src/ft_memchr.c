@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 17:41:25 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 16:45:30 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:03:18 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 		return (str);
 	return (NULL);
 }
-
-/* int	main(void)
-{
-	char	*str = "abcde";
-	printf("%p\n", str);
-	printf("%p\n", ft_memchr(str, 'x', 5));
-	printf("%p\n", ft_memchr(str, '\0', 6));
-	printf("%c\n", str[6]);
-	printf("%p\n", ft_memchr(str, '%', 7));
-	return (0);
-} */

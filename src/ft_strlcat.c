@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 12:46:35 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 20:17:33 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:08:22 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,17 +29,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
 	dst[dlen + i] = '\0';
 	return (dlen + ft_strlen(src));
 }
-
-/* #include <stdio.h>
-
-int	main(void)
-{
-	char s1[23] = "where is my ";
- 	char *s2 = "malloc ???";
- 	char *s3 = "where is my malloc ???";
-	size_t result = ft_strlcat(s1, s2, 22 + 1);
-
-	printf("%s\n", s1);
-	printf("%lu\n", result);
-	return (0);	
-} */

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 18:43:48 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 16:33:09 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:07:41 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,13 +32,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-/* int	main(void)
-{
-	char 	*b = "e esta tudo bem";
-	char	*l = "tudo";
-
-	printf("%p\n", &b[7]);
-	printf("%p\n", ft_strnstr(b, l, 16));
-	return (0);
-} */

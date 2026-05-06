@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/24 13:33:53 by lbraga            #+#    #+#             */
-/*   Updated: 2025/09/25 22:05:19 by lbraga           ###   ########.fr       */
+/*   Updated: 2026/05/05 20:08:28 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,15 +29,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(str, s2, i + j + 1);
 	return (str);
 }
-
-/* int	main(void)
-{
-	char	*s1= "where is my ";
-	char	*s2 = "malloc ???";
-	char	*str = ft_strjoin(s1, s2);
-
-	printf("%s\n", str);
-	free(str);
-	printf("%s\n", str);
-	return (0);	
-} */
