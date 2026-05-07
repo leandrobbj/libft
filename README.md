@@ -60,7 +60,7 @@ Developing Libft was a significant challenge that helped me understand the stand
 
  *This is the end of the documentation. For a quick reference on how each function behaves, please refer to the List below.*
 
----
+___
 
 ### Function List
 
