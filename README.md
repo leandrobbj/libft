@@ -2,7 +2,14 @@
 
 *This project was created as part of the 42 curriculum by lbraga.*
 
->**Libft** is the first project in the 42 curriculum. The goal is to create the `libft.a` static library by reimplementing some functions from the standard C library (`libc`) and a few additional utility functions. This project focuses on understanding how these functions work under the hood, handling memory management, string manipulation, and linked lists in the bonus part.
+**Libft** is the first project in the 42 curriculum. The goal is to create the `libft.a` static library by reimplementing some functions from the standard C library (`libc`) and a few additional utility functions. This project focuses on understanding how these functions work under the hood, handling memory management, string manipulation, and linked lists in the bonus part.
+
+1. [Libft Functions](#Libft_Functions)
+2. [Instructions](#Instructions)
+3. [Resources](#Resources)
+4. [AI Disclosure](#AI_Disclosure)
+5. [Final Notes](#Final_Notes)
+6. [Function List](#Function_List)
 
 ## Libft Functions
 
@@ -41,20 +48,21 @@ To compile the library, you must have the cc compiler and the make tool installe
 * [Linux Programmer's Manual (man pages)](https://man7.org/linux/man-pages/) - Useful for understanding the behavior of `libc` functions.
 * [Norminette Documentation](https://github.com/42School/norminette) - Helpful for ensuring the code follows the school's coding standards.
 
-##  AI Usage Disclosure
+##  AI Disclosure
 
-> In compliance with the 42 curriculum requirements, I used AI tools, including the **CS50.ai Duck**, during the development of this project to support my learning. These tools were used to research and summarize technical articles about memory management, pointer arithmetic, recursion, and data structure iteration.
-> The AI also helped with test development to identify potential logic bugs and edge cases during the implementation of complex functions, and supported the organization and formatting of project configuration files.
+In compliance with the 42 curriculum requirements, I used AI tools, including the **CS50.ai Duck**, during the development of this project to support my learning. These tools were used to research and summarize technical articles about memory management, pointer arithmetic, recursion, and data structure iteration.
+
+The AI also helped with test development to identify potential logic bugs and edge cases during the implementation of complex functions, and supported the organization and formatting of project configuration files.
 
 ## Final Notes
 
-> Developing Libft was a significant challenge that helped me understand the standard functions from scratch. This project gave me a foundation in pointer arithmetic for direct memory manipulation and in working with pointers to pointers. Ultimately, it was about building the skills needed to solve problems and create a reliable toolkit for future projects.
+Developing Libft was a significant challenge that helped me understand the standard functions from scratch. This project gave me a foundation in pointer arithmetic for direct memory manipulation and in working with pointers to pointers. Ultimately, it was about building the skills needed to solve problems and create a reliable toolkit for future projects.
 
  *This is the end of the documentation. For a quick reference on how each function behaves, please refer to the List below.*
 
 ---
 
-## Function List
+### Function List
 
 | Libc Functions | Description |
 | :--- | :--- |
