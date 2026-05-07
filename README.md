@@ -1,15 +1,15 @@
-# Libft &nbsp; ![C language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/makefile-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555) ![linux](https://img.shields.io/badge/linux-444444?style=flat-square&logo=linux&logoColor=black&labelColor=999999) ![terminal](https://img.shields.io/badge/terminal-444444?style=flat-square&logo=gnometerminal&logoColor=black&labelColor=bbbbbb)
+# Libft &nbsp;![C language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/makefile-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555) ![linux](https://img.shields.io/badge/linux-444444?style=flat-square&logo=linux&logoColor=black&labelColor=aaaaaa) ![terminal](https://img.shields.io/badge/terminal-444444?style=flat-square&logo=gnometerminal&logoColor=black&labelColor=aaaaaa)
 
 *This project was created as part of the 42 curriculum by lbraga.*
 
 **Libft** is the first project in the 42 curriculum. The goal is to create the `libft.a` static library by reimplementing some functions from the standard C library (`libc`) and a few additional utility functions. This project focuses on understanding how these functions work under the hood, handling memory management, string manipulation, and linked lists in the bonus part.
 
-1. [Libft Functions](#Libft_Functions)
+1. [Libft Functions](#Libft-Functions)
 2. [Instructions](#Instructions)
 3. [Resources](#Resources)
-4. [AI Disclosure](#AI_Disclosure)
-5. [Final Notes](#Final_Notes)
-6. [Function List](#Function_List)
+4. [AI Disclosure](#AI-Disclosure)
+5. [Final Notes](#FinalNotes)
+6. [Function List](#Function-List)
 
 ## Libft Functions
 
