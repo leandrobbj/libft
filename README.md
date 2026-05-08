@@ -1,4 +1,4 @@
-# Libft &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/makefile-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555)
+# Libft &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/make-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555)
 
 *This project was created as part of the 42 curriculum by lbraga.*
 
