@@ -1,4 +1,4 @@
-# Libft &nbsp;![C language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/makefile-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555) ![linux](https://img.shields.io/badge/linux-444444?style=flat-square&logo=linux&logoColor=black&labelColor=aaaaaa) ![terminal](https://img.shields.io/badge/terminal-444444?style=flat-square&logo=gnometerminal&logoColor=black&labelColor=aaaaaa)
+# Libft &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/makefile-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555)
 
 *This project was created as part of the 42 curriculum by lbraga.*
 
@@ -13,13 +13,12 @@
 
 ## Libft Functions
 
-* **Characters:** `isalpha` &nbsp;`isdigit` &nbsp;`isalnum` &nbsp;`isascii` &nbsp;`isprint` &nbsp;`toupper` &nbsp;`tolower`
-* **Memory:** `memset` &nbsp;`bzero` &nbsp;`memcpy` &nbsp;`memmove` &nbsp;`memchr` &nbsp;`memcmp` &nbsp;`calloc`
-
-* **Strings:** `strlen` &nbsp;`strlcpy` &nbsp;`strlcat` &nbsp;`strncmp` &nbsp;`strchr` &nbsp;`strrchr` &nbsp;`strnstr` &nbsp;`strdup` &nbsp;`ft_substr` &nbsp;`ft_strjoin` &nbsp;`ft_strtrim` &nbsp;`ft_split` &nbsp;`ft_strmapi` &nbsp;`ft_striteri`
-* **Conversion:** `atoi` &nbsp;`ft_itoa`
-* **File Descriptor:** `ft_putchar_fd` &nbsp;`ft_putstr_fd` &nbsp;`ft_putendl_fd` &nbsp;`ft_putnbr_fd`
-* **Linked Lists (bonus):** `ft_lstnew` &nbsp;`ft_lstadd_front` &nbsp;`ft_lstsize` &nbsp;`ft_lstlast` &nbsp;`ft_lstadd_back` &nbsp;`ft_lstdelone` &nbsp;`ft_lstclear` &nbsp;`ft_lstiter` &nbsp;`ft_lstmap`
+* **Characters:** `isalpha` `isdigit` `isalnum` `isascii` `isprint` `toupper` `tolower`
+* **Memory:** `memset` `bzero` `memcpy` `memmove` `memchr` `memcmp` `calloc`
+* **Strings:** `strlen` `strlcpy` `strlcat` `strncmp` `strchr` `strrchr` `strnstr` `strdup` `ft_substr` `ft_strjoin` `ft_strtrim` `ft_split` `ft_strmapi` `ft_striteri`
+* **Conversion:** `atoi` `ft_itoa`
+* **File Descriptor:** `ft_putchar_fd` `ft_putstr_fd` `ft_putendl_fd` `ft_putnbr_fd`
+* **Linked Lists (bonus):** `ft_lstnew` `ft_lstadd_front` `ft_lstsize` `ft_lstlast` `ft_lstadd_back` `ft_lstdelone` `ft_lstclear` `ft_lstiter` `ft_lstmap`
 
 ## Instructions
 
