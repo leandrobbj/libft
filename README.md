@@ -8,7 +8,7 @@
 2. [Instructions](#Instructions)
 3. [Resources](#Resources)
 4. [AI Disclosure](#AI-Disclosure)
-5. [Final Notes](#FinalNotes)
+5. [Final Notes](#Final-Notes)
 6. [Function List](#Function-List)
 
 ## Libft Functions
