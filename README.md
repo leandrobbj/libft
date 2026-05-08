@@ -1,6 +1,6 @@
-# Libft &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/make-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555)
+# Libft &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/make-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555) ![42](https://img.shields.io/badge/lisboa-444444?style=flat-square&logo=42&logoColor=black&labelColor=777777)
 
-*This project was created as part of the 42 curriculum by lbraga.*
+*This project has been created as part of the 42 curriculum by lbraga.*
 
 **Libft** is the first project in the 42 curriculum. The goal is to create the `libft.a` static library by reimplementing some functions from the standard C library and a few additional utility functions. This project focuses on understanding how these functions work under the hood, handling memory management, string manipulation, and linked lists in the bonus part.
 
