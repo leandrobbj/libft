@@ -91,26 +91,26 @@ ___
 
 | Additional Functions | Description |
 | :--- | :--- |
-| [`ft_substr`](src/ft_substr.c) | Returns a substring from a string. |
-| [`ft_strjoin`](src/ft_strjoin.c) | Concatenates two strings into a new one. |
-| [`ft_strtrim`](src/ft_strtrim.c) | Trims specific characters from the start and end of a string. |
-| [`ft_split`](src/ft_split.c) | Splits a string into an array of strings using a delimiter. |
-| [`ft_itoa`](src/ft_itoa.c) | Converts an integer to a string. |
-| [`ft_strmapi`](src/ft_strmapi.c) | Applies a function to each character of a string to create a new one. |
-| [`ft_striteri`](src/ft_striteri.c) | Applies a function to each character of a string by its index. |
-| [`ft_putchar_fd`](src/ft_putchar_fd.c) | Outputs a character to a specific file descriptor. |
-| [`ft_putstr_fd`](src/ft_putstr_fd.c) | Outputs a string to a specific file descriptor. |
-| [`ft_putendl_fd`](src/ft_putendl_fd.c) | Outputs a string followed by a newline to a file descriptor. |
-| [`ft_putnbr_fd`](src/ft_putnbr_fd.c) | Outputs an integer to a specific file descriptor. |
+| [`substr`](src/ft_substr.c) | Returns a substring from a string. |
+| [`strjoin`](src/ft_strjoin.c) | Concatenates two strings into a new one. |
+| [`strtrim`](src/ft_strtrim.c) | Trims specific characters from the start and end of a string. |
+| [`split`](src/ft_split.c) | Splits a string into an array of strings using a delimiter. |
+| [`itoa`](src/ft_itoa.c) | Converts an integer to a string. |
+| [`strmapi`](src/ft_strmapi.c) | Applies a function to each character of a string to create a new one. |
+| [`striteri`](src/ft_striteri.c) | Applies a function to each character of a string by its index. |
+| [`putchar_fd`](src/ft_putchar_fd.c) | Outputs a character to a specific file descriptor. |
+| [`putstr_fd`](src/ft_putstr_fd.c) | Outputs a string to a specific file descriptor. |
+| [`putendl_fd`](src/ft_putendl_fd.c) | Outputs a string followed by a newline to a file descriptor. |
+| [`putnbr_fd`](src/ft_putnbr_fd.c) | Outputs an integer to a specific file descriptor. |
 
-| Bonus Linked Lists Functions | Description |
+| Linked Lists  Bonus Functions | Description |
 | :--- | :--- |
-| [`ft_lstnew`](src/ft_lstnew.c) | Creates a new list element. |
-| [`ft_lstadd_front`](src/ft_lstadd_front.c) | Adds an element to the beginning of a list. |
-| [`ft_lstsize`](src/ft_lstsize.c) | Counts the number of elements in a list. |
-| [`ft_lstlast`](src/ft_lstlast.c) | Returns the last element of a list. |
-| [`ft_lstadd_back`](src/ft_lstadd_back.c) | Adds an element to the end of a list. |
-| [`ft_lstdelone`](src/ft_lstdelone.c) | Deletes one element from a list using a given function. |
-| [`ft_lstclear`](src/ft_lstclear.c) | Deletes and frees an entire list. |
-| [`ft_lstiter`](src/ft_lstiter.c) | Iterates through a list and applies a function to each element. |
-| [`ft_lstmap`](src/ft_lstmap.c) | Iterates through a list and applies a function to create a new list. |
+| [`lstnew`](src/ft_lstnew.c) | Creates a new list element. |
+| [`lstadd_front`](src/ft_lstadd_front.c) | Adds an element to the beginning of a list. |
+| [`lstsize`](src/ft_lstsize.c) | Counts the number of elements in a list. |
+| [`lstlast`](src/ft_lstlast.c) | Returns the last element of a list. |
+| [`lstadd_back`](src/ft_lstadd_back.c) | Adds an element to the end of a list. |
+| [`lstdelone`](src/ft_lstdelone.c) | Deletes one element from a list using a given function. |
+| [`lstclear`](src/ft_lstclear.c) | Deletes and frees an entire list. |
+| [`lstiter`](src/ft_lstiter.c) | Iterates through a list and applies a function to each element. |
+| [`lstmap`](src/ft_lstmap.c) | Iterates through a list and applies a function to create a new list. |
