@@ -2,7 +2,7 @@
 
 *This project was created as part of the 42 curriculum by lbraga.*
 
-**Libft** is the first project in the 42 curriculum. The goal is to create the `libft.a` static library by reimplementing some functions from the standard C library (`libc`) and a few additional utility functions. This project focuses on understanding how these functions work under the hood, handling memory management, string manipulation, and linked lists in the bonus part.
+**Libft** is the first project in the 42 curriculum. The goal is to create the `libft.a` static library by reimplementing some functions from the standard C library and a few additional utility functions. This project focuses on understanding how these functions work under the hood, handling memory management, string manipulation, and linked lists in the bonus part.
 
 1. [Libft Functions](#Libft-Functions)
 2. [Instructions](#Instructions)
@@ -65,52 +65,52 @@ ___
 
 | Libc Functions | Description |
 | :--- | :--- |
-| `isalpha` | Checks for an alphabetic character. |
-| `isdigit` | Checks for a digit (0 through 9). |
-| `isalnum` | Checks for an alphanumeric character. |
-| `isascii` | Checks whether `c` fits into the ASCII character set. |
-| `isprint` | Checks for any printable character. |
-| `strlen` | Calculates the length of a string. |
-| `memset` | Fills memory with a constant byte. |
-| `bzero` | Erases the data in `n` bytes of memory. |
-| `memcpy` | Copies memory area. |
-| `memmove` | Copies memory area (handles overlapping). |
-| `strlcpy` | Size-bounded string copying. |
-| `strlcat` | Size-bounded string concatenation. |
-| `toupper` | Converts a lowercase letter to uppercase. |
-| `tolower` | Converts an uppercase letter to lowercase. |
-| `strchr` | Locates a character in a string. |
-| `strrchr` | Locates a character in a string, searching from the end. |
-| `strncmp` | Compares two strings up to `n` characters. |
-| `memchr` | Scans memory for a character. |
-| `memcmp` | Compares memory areas. |
-| `strnstr` | Locates a substring in a string, searching up to `n` characters. |
-| `atoi` | Converts a string to an integer. |
-| `calloc` | Allocates memory and initializes it to zero. |
-| `strdup` | Creates a duplicate of a string using `malloc`. |
+| [`isalpha`](libft/src/ft_isalpha.c) | Checks for an alphabetic character. |
+| [`isdigit`](libft/src/ft_isdigit.c) | Checks for a digit (0 through 9). |
+| [`isalnum`](libft/src/ft_isalnum.c) | Checks for an alphanumeric character. |
+| [`isascii`](libft/src/ft_isascii.c) | Checks whether `c` fits into the ASCII character set. |
+| [`isprint`](libft/src/ft_isprint.c) | Checks for any printable character. |
+| [`strlen`](libft/src/ft_strlen.c) | Calculates the length of a string. |
+| [`memset`](libft/src/ft_memset.c) | Fills memory with a constant byte. |
+| [`bzero`](libft/src/ft_bzero.c) | Erases the data in `n` bytes of memory. |
+| [`memcpy`](libft/src/ft_memcpy.c) | Copies memory area. |
+| [`memmove`](libft/src/ft_memmove.c) | Copies memory area (handles overlapping). |
+| [`strlcpy`](libft/src/ft_strlcpy.c) | Size-bounded string copying. |
+| [`strlcat`](libft/src/ft_strlcat.c) | Size-bounded string concatenation. |
+| [`toupper`](libft/src/ft_toupper.c) | Converts a lowercase letter to uppercase. |
+| [`tolower`](libft/src/ft_tolower.c) | Converts an uppercase letter to lowercase. |
+| [`strchr`](libft/src/ft_strchr.c) | Locates a character in a string. |
+| [`strrchr`](libft/src/ft_strrchr.c) | Locates a character in a string, searching from the end. |
+| [`strncmp`](libft/src/ft_strncmp.c) | Compares two strings up to `n` characters. |
+| [`memchr`](libft/src/ft_memchr.c) | Scans memory for a character. |
+| [`memcmp`](libft/src/ft_memcmp.c) | Compares memory areas. |
+| [`strnstr`](libft/src/ft_strnstr.c) | Locates a substring in a string, searching up to `n` characters. |
+| [`atoi`](libft/src/ft_atoi.c) | Converts a string to an integer. |
+| [`calloc`](libft/src/ft_calloc.c) | Allocates memory and initializes it to zero. |
+| [`strdup`](libft/src/ft_strdup.c) | Creates a duplicate of a string using `malloc`. |
 
 | Additional Functions | Description |
 | :--- | :--- |
-| `ft_substr` | Returns a substring from a string. |
-| `ft_strjoin` | Concatenates two strings into a new one. |
-| `ft_strtrim` | Trims specific characters from the start and end of a string. |
-| `ft_split` | Splits a string into an array of strings using a delimiter. |
-| `ft_itoa` | Converts an integer to a string. |
-| `ft_strmapi` | Applies a function to each character of a string to create a new one. |
-| `ft_striteri` | Applies a function to each character of a string by its index. |
-| `ft_putchar_fd` | Outputs a character to a specific file descriptor. |
-| `ft_putstr_fd` | Outputs a string to a specific file descriptor. |
-| `ft_putendl_fd` | Outputs a string followed by a newline to a file descriptor. |
-| `ft_putnbr_fd` | Outputs an integer to a specific file descriptor. |
+| [`ft_substr`](libft/src/ft_substr.c) | Returns a substring from a string. |
+| [`ft_strjoin`](libft/src/ft_strjoin.c) | Concatenates two strings into a new one. |
+| [`ft_strtrim`](libft/src/ft_strtrim.c) | Trims specific characters from the start and end of a string. |
+| [`ft_split`](libft/src/ft_split.c) | Splits a string into an array of strings using a delimiter. |
+| [`ft_itoa`](libft/src/ft_itoa.c) | Converts an integer to a string. |
+| [`ft_strmapi`](libft/src/ft_strmapi.c) | Applies a function to each character of a string to create a new one. |
+| [`ft_striteri`](libft/src/ft_striteri.c) | Applies a function to each character of a string by its index. |
+| [`ft_putchar_fd`](libft/src/ft_putchar_fd.c) | Outputs a character to a specific file descriptor. |
+| [`ft_putstr_fd`](libft/src/ft_putstr_fd.c) | Outputs a string to a specific file descriptor. |
+| [`ft_putendl_fd`](libft/src/ft_putendl_fd.c) | Outputs a string followed by a newline to a file descriptor. |
+| [`ft_putnbr_fd`](libft/src/ft_putnbr_fd.c) | Outputs an integer to a specific file descriptor. |
 
 | Bonus Linked Lists Functions | Description |
 | :--- | :--- |
-| `ft_lstnew` | Creates a new list element. |
-| `ft_lstadd_front` | Adds an element to the beginning of a list. |
-| `ft_lstsize` | Counts the number of elements in a list. |
-| `ft_lstlast` | Returns the last element of a list. |
-| `ft_lstadd_back` | Adds an element to the end of a list. |
-| `ft_lstdelone` | Deletes one element from a list using a given function. |
-| `ft_lstclear` | Deletes and frees an entire list. |
-| `ft_lstiter` | Iterates through a list and applies a function to each element. |
-| `ft_lstmap` | Iterates through a list and applies a function to create a new list. |
+| [`ft_lstnew`](libft/src/ft_lstnew.c) | Creates a new list element. |
+| [`ft_lstadd_front`](libft/src/ft_lstadd_front.c) | Adds an element to the beginning of a list. |
+| [`ft_lstsize`](libft/src/ft_lstsize.c) | Counts the number of elements in a list. |
+| [`ft_lstlast`](libft/src/ft_lstlast.c) | Returns the last element of a list. |
+| [`ft_lstadd_back`](libft/src/ft_lstadd_back.c) | Adds an element to the end of a list. |
+| [`ft_lstdelone`](libft/src/ft_lstdelone.c) | Deletes one element from a list using a given function. |
+| [`ft_lstclear`](libft/src/ft_lstclear.c) | Deletes and frees an entire list. |
+| [`ft_lstiter`](libft/src/ft_lstiter.c) | Iterates through a list and applies a function to each element. |
+| [`ft_lstmap`](libft/src/ft_lstmap.c) | Iterates through a list and applies a function to create a new list. |
