@@ -15,11 +15,11 @@
 
 * **Characters:** `isalpha` `isdigit` `isalnum` `isascii` `isprint` `toupper` `tolower`
 * **Memory:** `memset` `bzero` `memcpy` `memmove` `memchr` `memcmp` `calloc`
-* **Strings:** `strlen` `strlcpy` `strlcat` `strncmp` `strchr` `strrchr` `strnstr` `strdup` `ft_substr` `ft_strjoin` `ft_strtrim` `ft_split` `ft_strmapi` `ft_striteri`
-* **Conversion:** `atoi` `ft_itoa`
-* **File Descriptor:** `ft_putchar_fd` `ft_putstr_fd` `ft_putendl_fd` `ft_putnbr_fd`
-* **Linked Lists (bonus):** `ft_lstnew` `ft_lstadd_front` `ft_lstsize` `ft_lstlast` `ft_lstadd_back` `ft_lstdelone` `ft_lstclear` `ft_lstiter` `ft_lstmap`
-* **List Structure:**
+* **Strings:** `strlen` `strlcpy` `strlcat` `strncmp` `strchr` `strrchr` `strnstr` `strdup` `substr` `strjoin` `strtrim` `split` `strmapi` `striteri`
+* **Conversion:** `atoi` `itoa`
+* **File Descriptor:** `putchar_fd` `putstr_fd` `putendl_fd` `putnbr_fd`
+* **Linked Lists (bonus):** `lstnew` `lstadd_front` `lstsize` `lstlast` `lstadd_back` `lstdelone` `lstclear` `lstiter` `lstmap`
+* **List Struct:**
 	```
 	typedef struct s_list
 	{
@@ -42,7 +42,7 @@ To compile the library, you must have the cc compiler and the make tool installe
 	make
 	```
 
-### Other commands:
+#### Other commands:
 
 * `make bonus`: Creates the library including the bonus functions.
 * `make clean`: Removes the object files (`.o`).
@@ -65,9 +65,7 @@ The AI also helped with test development to identify potential logic bugs and ed
 
 Developing Libft was a significant challenge that helped me understand the standard functions from scratch. This project gave me a foundation in pointer arithmetic for direct memory manipulation and in working with pointers to pointers. Ultimately, it was about building the skills needed to solve problems and create a reliable toolkit for future projects.
 
- *This is the end of the documentation. For a quick reference on how each function behaves, please refer to the List below.*
-
-___
+ >*This is the end of the documentation. For a quick reference on how each function behaves, please refer to the List below.*
 
 ### Function List
 
@@ -111,7 +109,7 @@ ___
 | [`putendl_fd`](src/ft_putendl_fd.c) | Outputs a string followed by a newline to a file descriptor. |
 | [`putnbr_fd`](src/ft_putnbr_fd.c) | Outputs an integer to a specific file descriptor. |
 
-| Linked Lists  Bonus Functions | Description |
+| Linked Lists Bonus Functions | Description |
 | :--- | :--- |
 | [`lstnew`](src/ft_lstnew.c) | Creates a new list element. |
 | [`lstadd_front`](src/ft_lstadd_front.c) | Adds an element to the beginning of a list. |
