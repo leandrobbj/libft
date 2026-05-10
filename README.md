@@ -35,7 +35,7 @@ To compile the library, you must have the cc compiler and the make tool installe
 
 1.	**Clone the repository:**
 	```
-	git clone git@github.com:leandrobbj/libft.git && cd libft
+	git clone https://github.com/leandrobbj/libft.git && cd libft
 	```
 
 2.	**Create the library:**
